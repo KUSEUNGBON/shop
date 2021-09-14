@@ -4,9 +4,15 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>index.jsp</title>
 </head>
 <body>
+	<!-- start : submenu include -->
+	<div>
+		<jsp:include page="/partial/subMenu.jsp"></jsp:include>
+	</div>
+	<!--  end : submenu include  -->
+	<h1>메인페이지</h1>
 
 </body>
 </html>
